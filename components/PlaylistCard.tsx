@@ -34,8 +34,8 @@ const PlaylistCard = (props: PlaylistCardProps) => {
           <span className="text-xs text-gray-400 ">2.1k </span>
           <Eye className='text-gray-400' width={20} height={20}/>
         </div> */}
-        </div>
       </div>
+    </div>
     </Suspense>
   );
 };
