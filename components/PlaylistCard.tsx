@@ -20,7 +20,6 @@ const PlaylistCard = (props: PlaylistCardProps) => {
           <div className='overflow-hidden  lg:h-[155px] xl:h-[176px]'>
             <Image src={props.playlist_image} alt={props.playlist_title + '- Sieve'} width={500} height={500} className='	 w-full rounded-xl object-cover h-full  ' />
           </div>
-          {/* <div className='text-[#373737] capitalize font-bold text-base absolute bottom-0 left-0 p-1 text-center right-0 bg-white rounded-b-xl line-clamp-1'>{props.playlist_title}</div> */}
         </Link>
 
         <div className='grid grid-cols-3 gap-y-2 justify-items-start'>
